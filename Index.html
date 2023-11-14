@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-template-areas:
+                "left right"
+                "person-info right"
+                "bottom bottom";
+            width: 100%;
+        }
+
+        .left {
+            grid-area: left;
+            background-color: #b3c0b9;
+        }
+
+        .right {
+            grid-area: right;
+            background-color: #6adce6;
+            display: flex;
+            flex-direction: column;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .bottom {
+            grid-area: bottom;
+            background-color: #966fd5;
+        }
+
+        .person-info {
+            grid-area: person-info;
+            background-color: #b3c0b9;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="image-container">
+                <img src="https://media.discordapp.net/attachments/1156267910117994560/1168492764158246912/Snapchat-1534234316.jpg" alt="Girl in a jacket" width="100">
+            </div>
+        </div>
+
+        <div class="right">
+        <p>Osaamisen tiivistelmä ja työkokemus
+            <p>Olen hiljainen ja rehellinen teinipoika, joka haluaa oppia kaikkea uutta. Olen valmis toimimaan erilaisissa työtiloissa erilaisten ihmisten kanssa. Vaikka se ei ulkopuolelle näy, osaan hyvin ihmisten kanssa jutella.
+            Olen ollut S Marketissa, ja kuokkalan nuorisotilalla työssäoppimassa</p>   
+            <!-- täs mun kommennti -->
+        </div>
+
+        <div class="person-info">
+            <h3>Henkilötiedot</h3>
+            <p>Luka Kekoni</p>
+            <p>15</p>
+            <p>Luka.kekoni@gmail.com</p>
+        </div>
+
+        <div class="bottom">
+        <p> Minun Somet
+            <p><a href="https://www.instagram.com/lukakekoni/">Tästä pääset Instagramiini.</a></p> <p><a href="https://www.facebook.com/people/Luka-Kekoni/pfbid024fDqJDaYhKWNVPoyMYtUa3NAo3eafq3Ev1nejTemVSHoCZd1fd1SwReq9hgKZvfRl/"> Tässä facebooki</a>
+        </div>
+    </div>
+</body>
+</html>
