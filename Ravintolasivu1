@@ -1,0 +1,115 @@
+index.html:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ravintola Lapintaika</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #header {
+            background-color: #e0e0e0;
+            text-align: center;
+        }
+        #menu {
+            margin: 20px auto;
+            width: 60%;
+            text-align: center;
+        }
+        #contact {
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Ravintola Lapintaika</h1>
+        
+    </div>
+
+    <div id="menu">
+        <h2>Ruokalista</h2>
+        <table>
+            <tr>
+                <td>Maanantai</td>
+            </tr>
+            <tr>
+                <td>Juusto-vihanneskeittoa ja kokin sämpylä</td>
+                <td>Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia</td>
+                <td>Marjakiisseliä ja hunajakermavaahtoa</td>
+            </tr>
+            <tr>
+                <td>Tiistai</td>
+            </tr>
+            <tr>
+                <td>Kana-fetajustosalaattia ja kokin sämpylä </td>
+                <td>Paistettua punakampelaa, pinaattikastiketta ja perunamuusia</td>
+                <td>Pannukakkua, mansikkahilloa ja kermavaahtoa</td>
+            </tr>
+            <tr>
+            <td>Keskiviikko</td>
+            </tr>
+            <tr>
+                <td>Tomaatti-yrttikeittoa ja kokin sämpylä  </td>
+                <td>Kalkkunaleikettä, BBQ-kastiketta riisiä ja kasviksia</td>
+                <td> Omenapiirakkaa ja vaniljakastiketta</td>
+                </tr>
+            <tr>
+            <td>Torstai</td>
+            </tr>
+            <tr>
+                <td>Rapukeittoa ja kokin sämpylä  </td>
+                <td>Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja </td>
+                <td> Hedelmäsalaattia ja kinuskikastiketta</td>
+                <tr>
+            <td>Perjantai</td>
+            </tr>
+            <tr>
+                <td>Savulohisalaatti ja kokin sämpylä  </td>
+                <td>Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia  </td>
+                <td> Suklaamousse</td>
+            
+        </table>
+        <p>Lounaan hinta: 11.90 euroa, sisältäen ruokajuoman: vesi, kotikalja, maito</p>
+    </div>
+
+    <div id="contact">
+        <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</p>
+        <p>Puh. (012) 345 6789</p>
+        <p>Sähköposti: varaukset@jokuposti.net</p>
+        <p>Aukioloajat: ma - pe, 10:30 - 15:00</p>
+    </div>
+</body>
+</html>
+
+
+
+Tästä alkaa css:
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.07f685caae91e8f206539b590741c4e8?rik=mHdWQV1J%2fEKxDQ&pid=ImgRaw&r=0'); /* Korvaa 'polku/taustakuva.jpg' taustakuvan URL:llä */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#header {
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+#menu {
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    font-style: italic;
+}
